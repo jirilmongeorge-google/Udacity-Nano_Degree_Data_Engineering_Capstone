@@ -15,7 +15,7 @@ This ETL pipeline preprocess the Project data sources(above) and load it into AW
 The ETL pipeline should extract from S3, loads it into Redshift staging tables and then copy it to Redshift fact and dimension tables.To complete the project, we created custom Airflow operators to perform tasks such as staging the data, filling the data warehouse, and running data quality checks on the data as the final step.
 
 # Project Files
-## Data Engineer Capstone Project.ipynb - Notebook that explains the End-to-End flow of this Project
+- ## Data Engineer Capstone Project.ipynb - Notebook that explains the End-to-End flow of this Project
 - **etl/s3_to_redshift_etl.py** -  Loads datasets to S3
 - **airflow/dags/dag_capstone_s3_to_redshift.py** - Loads data from S3 to Redshift fact and dimension tables
 - **airflow/plugins/operators/stage_redshift.py** - Loads data from S3 to Redshift fact and dimension tables
