@@ -25,8 +25,8 @@ The ETL pipeline should extract from S3, loads it into Redshift staging tables a
 - create_tables.sql - used to create fact and dimension tables
 
 # Project Execution Instructions
-- ETL pipeline 1 - **etl/s3_to_redshift_etl.py** cambe executed from unix console
-- ETL pipeline 2 - The Airflow DAG and custom operators needs to downloaded form the **airflow** folder and placed into the corresponding folders inside your AIrflow installaiton. Then run the DAG **data_engineering_project**.
+- ETL pipeline 1 - **etl/s3_to_redshift_etl.py** can be executed from unix console
+- ETL pipeline 2 - The Airflow DAG and custom operators needs to downloaded form the **airflow** folder and placed into the corresponding folders inside your AIrflow installaiton. Then run the DAG **data_engineering_project** from Airflow Web UI.
 
 # Notes: 
 - After you have updated the DAG, you will need to run /opt/airflow/start.sh command to start the Airflow webserver. 
