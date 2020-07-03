@@ -3,7 +3,7 @@
 
 - Using the available data sources listed above, we build a Data Lake available on S3 that can be used to query for weather and demographics of popular immigration destinations, which could be useful for both immigrants and regulators. Regulators can also access data about individual immigrants, date of arrival to the US, visa expiry dates and method of entries to improve decision making.
 
-## [Data Engineer Capstone Project|https://github.com/jirilmongeorge/Udacity-Nano_Degree_Data_Engineering_Capstone/blob/master/Data%20Engineer%20Capstone%20Project.ipynb] - Notebook that explains the End-to-End flow of this Project
+## [Data Engineer Capstone Project](https://github.com/jirilmongeorge/Udacity-Nano_Degree_Data_Engineering_Capstone/blob/master/Data%20Engineer%20Capstone%20Project.ipynb) - Notebook that explains the End-to-End flow of this Project
 
 # Project Data Sources
 - I94 Immigration Data: This data comes from the US National Tourism and Trade Office Source. 
@@ -17,7 +17,7 @@ This ETL pipeline preprocess the Project data sources(above) and load it into AW
 The ETL pipeline should extract from S3, loads it into Redshift staging tables and then copy it to Redshift fact and dimension tables.To complete the project, we created custom Airflow operators to perform tasks such as staging the data, filling the data warehouse, and running data quality checks on the data as the final step.
 
 # Project Files
-- ## [Data Engineer Capstone Project|https://github.com/jirilmongeorge/Udacity-Nano_Degree_Data_Engineering_Capstone/blob/master/Data%20Engineer%20Capstone%20Project.ipynb] - Notebook that explains the End-to-End flow of this Project
+- ## [Data Engineer Capstone Project](https://github.com/jirilmongeorge/Udacity-Nano_Degree_Data_Engineering_Capstone/blob/master/Data%20Engineer%20Capstone%20Project.ipynb) - Notebook that explains the End-to-End flow of this Project
 - **etl/s3_to_redshift_etl.py** -  Loads datasets to S3
 - **airflow/dags/dag_capstone_s3_to_redshift.py** - Loads data from S3 to Redshift fact and dimension tables
 - **airflow/plugins/operators/stage_redshift.py** - Loads data from S3 to Redshift fact and dimension tables
