@@ -3,6 +3,8 @@
 
 - Using the available data sources listed above, we build a Data Lake available on S3 that can be used to query for weather and demographics of popular immigration destinations, which could be useful for both immigrants and regulators. Regulators can also access data about individual immigrants, date of arrival to the US, visa expiry dates and method of entries to improve decision making.
 
+## Project.ipynb - Notebook that explains the End-to-End flow of this Project
+
 # Project Data Sources
 - I94 Immigration Data: This data comes from the US National Tourism and Trade Office Source. 
 - World temperature Data: This dataset comes from Kaggle Source. 
